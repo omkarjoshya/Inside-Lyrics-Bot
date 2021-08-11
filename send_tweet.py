@@ -1,7 +1,6 @@
 import auth
 import tweepy
 
-
 def job():
     api = tweepy.API(auth.auth)
     album = auth.album
